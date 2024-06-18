@@ -15,7 +15,7 @@ p {
     font-family: 'kanit';
 }
 
-h1 {
+h1, h5{
     font-family: 'newtown';
 }
 
@@ -85,7 +85,6 @@ h1 {
     font-size: 20px;
     position: relative;
     bottom: 50px;
-
 }
 
 .btn:hover {
@@ -118,7 +117,7 @@ h1 {
 
 .skill {
     overflow: hidden;
-    margin-bottom: 140px;
+    margin-bottom: 100px;
 }
 
 .skill .container {
@@ -135,4 +134,38 @@ h1 {
     justify-content: center;
     box-shadow: 0px 0px 100px -30px rgba(245, 183, 229, 0.2);
     margin-bottom: 100px;
+}
+.portfolio .card img{
+    height: 700px;
+    width: auto;
+    object-fit: cover;
+    overflow: hidden;
+}
+.portfolio .card{
+    background-color: #F5B7E5;
+    text-align: center;
+}
+.card-title{
+    color: #100E0F;
+    font-size: 26px;
+}
+.card-text{
+    font-size: 20px;
+}
+.btn2 {
+    background: none;
+    color: #100E0F;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'kanit';
+    font-size: 20px;
+    border: 2px solid #100E0F;
+    transition: .5s;
+}
+.btn2:hover{
+    color: #F5B7E5;
+    background-color: #100E0F;
+    transition: .3s;
 }
