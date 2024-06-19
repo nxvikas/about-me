@@ -222,3 +222,245 @@ footer{
     border-radius: 50%;
     transition: .3s;
 }
+
+@media(max-width:1200px){
+    .web{
+        font-size: 60px;
+    }
+    .one{
+        width: 500px;
+        height: auto;
+    }
+    .glav{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .neglav{
+        font-size: 16px;
+    }
+    .two{
+        width: 700px;
+        bottom: 20px;
+    }
+    .btn{
+        width: 150px;
+        height: 65px;
+        bottom: 20px;
+        font-size: 16px;
+    }
+    .skills{
+        font-size: 48px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .portfolio .card img{
+        height: 500px;
+        width: auto;
+    }
+    form .block {
+        width: 80%;
+    }
+    .tg{
+        width: 80px;
+        height: 80px;
+    }
+    .tg:hover{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media(max-width:992px){
+    .web{
+        font-size: 80px;
+    }
+    .one{
+        width: 680px;
+    }
+    .two{
+        bottom: 450px;
+    }
+    .neglav{
+        font-size: 20px;
+    }
+    .btn{
+        bottom: 60px;
+        font-size: 20px;
+        width: 200px;
+    }
+    .skills{
+        font-size: 40px;
+    }
+    .skill .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .skill .container .block{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .h-100{
+        width: 537px;
+    }
+    .cari{
+        display: flex;
+        justify-content: center;
+    }
+    form .block{
+        width: 90%;
+    }
+    .tg{
+        width: 70px;
+    }
+    .tg:hover{
+        width: 50px;
+        height: 50px;
+    }
+    .foot{
+        font-size: 14px;
+    }
+}
+@media(max-width:768px){
+    .web{
+        font-size: 55px;
+    }
+    .one{
+        width: 500px;
+    }
+    .two{
+        width: 500px;
+    }
+    .glav{
+        font-size: 48px;
+    }
+    .neglav{
+        font-size: 16px;
+    }
+    .btn{
+        font-size: 16px;
+        bottom: 50px;
+    }
+    .portfolio .card img {
+        height: 400px;
+        width: auto;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        bottom: 200px;
+    }
+    .card-title{
+        font-size: 22px;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+    .btn2{
+        font-size: 16px;
+        width: 160px;
+    }
+    .h-100{
+        width: 412px;
+    }
+    .qwer{
+        font-size: 20px !important;
+    }
+    label{
+        font-size: 20px;
+    }
+    .tg{
+        width: 60px;
+        height: 60px;
+    }
+    .tg:hover{
+        background: none;
+    }
+    .two{
+        bottom: 350px;
+    }
+}
+@media(max-width:576px){
+    .web{
+        font-size: 30px;
+    }
+    .one{
+        width: 250px;
+    }
+    .two{
+        width: 300px;
+        bottom: 360px;
+    }
+    .glav{
+        font-size: 26px;
+    }
+    .neglav{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .navbar-toggler{
+        width: 50px;
+        height: 30px;
+    }
+    .navbar-toggler-icon{
+        height: 20px;
+        width: 20px;
+    }
+    .nav-item a{
+        font-size: 16px;
+    }
+    .btn{
+        font-size: 14px;
+        width: 140px;
+        height: 50px;
+        bottom: 30px;
+    }
+    .me .container{
+        text-align: center;
+    }
+    .skills{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .skill .container .block{
+        width: 100%;
+    }
+    .zagolovok{
+        height: 50px;
+    }
+    .portfolio .card img{
+        height: 250px;
+    }
+    .card-title{
+        font-size: 20px;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+    .btn2{
+        font-size: 14px;
+        width: 140px;
+    }
+    .down{
+        font-size: 20px;
+    }
+    form .block{
+        width: 95%;
+    }
+    label{
+        font-size: 16px;
+    }
+    .glav{
+        font-size: 20px !important;
+    }
+    .tg{
+        width: 40px;
+        height: 40px;
+    }
+    .foot{
+        font-size: 12px;
+    }
+}
+form .container{
+    width: 60%;
+}
