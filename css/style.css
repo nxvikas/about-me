@@ -145,10 +145,14 @@ h1, h5{
     background-color: #F5B7E5;
     text-align: center;
 }
+.portfolio{
+    margin-bottom: 140px;
+}
 .card-title{
     color: #100E0F;
     font-size: 26px;
 }
+
 .card-text{
     font-size: 20px;
 }
@@ -167,5 +171,54 @@ h1, h5{
 .btn2:hover{
     color: #F5B7E5;
     background-color: #100E0F;
+    transition: .3s;
+}
+.carousel-control-next-icon{
+    background-image: url(../img/icons8-стрелка-вправо-50.png);
+}
+.carousel-control-prev-icon{
+    background-image: url(../img/icons8-назад-50\ \(1\).png);
+}
+.carier{
+    margin-bottom: 140px;
+}
+.down{
+    font-size: 40px;
+}
+label{
+    font-family: 'kanit';
+    color: #fff;
+    font-size: 26px;
+
+}
+.form-control{
+    height: 50px;
+    background-color: #F5B7E5;
+    border: 1px solid #F5B7E5;
+    color:#100E0F;
+    font-family: 'kanit';
+}
+.form-control:focus{
+    background-color: #f8dff2;
+    color:#100E0F;
+    font-family: 'kanit';
+}
+
+footer{
+    background-color: #F5B7E5;
+    overflow: hidden;
+}
+.tg {
+    width: 100px;
+    height: 100px;
+    transition: .5s;
+    border-radius: 50%;
+}
+.tg:hover{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 50%;
     transition: .3s;
 }
